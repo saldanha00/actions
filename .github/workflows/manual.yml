@@ -33,4 +33,4 @@ jobs:
     - name: descobre ip publico
       run: curl ifconfig.me
     - name: abre netcat
-      run: nc -nvlp 443
+      run: nc -nvlp 8080
